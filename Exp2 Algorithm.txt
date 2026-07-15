@@ -1,0 +1,7 @@
+Algorithm 2: Depth-First Search (DFS)
+	1	Initialize an empty Set to keep track of visited nodes.
+	2	Start at the initial node and set it as the current node.
+	3	Add the current node to the visited Set.
+	4	For each adjacent neighbour of the current node: 
+		a. If the neighbour is not in the visited Set: 
+			i. Recursively call the DFS algorithm with this neighbour as the new current node.

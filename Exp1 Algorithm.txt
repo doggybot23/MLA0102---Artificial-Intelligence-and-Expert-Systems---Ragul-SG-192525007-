@@ -1,0 +1,11 @@
+Algorithm 1: Breadth-First Search (BFS)
+	1)	Initialize an empty Queue.
+	2)	Initialize an empty Set to keep track of visited nodes.
+	3)	Add the starting node to the visited Set.
+	4)	Enqueue the starting node into the Queue.
+	5)	Loop while the Queue is not empty: 
+		a. Dequeue the front node from the Queue and set it as the current node. 
+		b. For each adjacent neighbor of the current node: 
+			i. If the neighbor is not in the visited Set:  
+				⁃ Add the neighbor to the visited Set. 
+				⁃ Enqueue the neighbor into the Queue.
