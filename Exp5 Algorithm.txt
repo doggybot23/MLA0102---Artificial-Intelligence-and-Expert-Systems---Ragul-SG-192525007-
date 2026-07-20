@@ -1,0 +1,9 @@
+Greedy Best First Search Algorithm
+	1. Start from the source node.
+	2. Store the heuristic value for every node.
+	3. Insert the source node into a priority queue.
+	4. Select and remove the node with the lowest heuristic value.
+	5. If the selected node is the goal node, stop the search.
+	6. Mark the node as visited.
+	7. Add all unvisited neighboring nodes to the priority queue according to their heuristic values.
+	8. Continue until the goal node is reached or no nodes remain.

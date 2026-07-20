@@ -1,0 +1,16 @@
+A* Search Algorithm
+	1. Start from the source node.
+	2. Initialize the source node with path cost g = 0 and compute f = g + h.
+	3. Insert the source node into a priority queue based on the f-value.
+	4. Remove the node with the smallest f-value.
+	5. If the node is the goal node, stop and display the optimal path cost.
+	6. Otherwise, mark the node as visited.
+	7. For each neighboring node, calculate:
+		◦ g = current path cost + edge cost
+		◦ f = g + heuristic value (h)
+	8. Insert the neighboring nodes into the priority queue with their updated f-values.
+	9. Repeat Steps 4–8 until the goal node is reached or the priority queue becomes empty.
+
+
+
+

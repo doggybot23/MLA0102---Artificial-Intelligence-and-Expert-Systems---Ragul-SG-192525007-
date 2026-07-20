@@ -1,0 +1,9 @@
+Best First Search Algorithm
+	1. Start from the source node.
+	2. Assign heuristic values to all nodes.
+	3. Insert the source node into a priority queue based on its heuristic value.
+	4. Remove the node with the smallest heuristic value.
+	5. If it is the goal node, stop.
+	6. Otherwise, mark it as visited.
+	7. Insert all unvisited neighboring nodes into the priority queue using their heuristic values.
+	8. Repeat until the goal node is found or the queue becomes empty.

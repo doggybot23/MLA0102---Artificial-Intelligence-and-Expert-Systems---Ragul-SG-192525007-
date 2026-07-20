@@ -1,0 +1,9 @@
+Uniform Cost Search (UCS) Algorithm
+	1. Start from the source node.
+	2. Create a priority queue and insert the source node with cost 0.
+	3. Mark all nodes as unvisited.
+	4. Remove the node with the lowest path cost from the priority queue.
+	5. If the node is the goal node, stop and display the minimum cost.
+	6. Otherwise, mark the node as visited.
+	7. Add all unvisited neighboring nodes to the priority queue with their cumulative path costs.
+	8. Repeat Steps 4–7 until the goal node is reached or the queue becomes empty.
