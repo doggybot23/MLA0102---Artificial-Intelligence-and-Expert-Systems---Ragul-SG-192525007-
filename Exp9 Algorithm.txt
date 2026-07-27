@@ -1,0 +1,13 @@
+Water Jug Algorithm
+	1. Start with both jugs empty.
+	2. Store the initial state (0, 0) in a queue.
+	3. Mark visited states to avoid repetition.
+	4. Generate all possible next states:
+		a. Fill Jug 1.
+		b.Fill Jug 2.
+		c. Empty Jug 1.
+		d. Empty Jug 2.
+		e. Pour water from Jug 1 to Jug 
+		f. Pour water from Jug 2 to Jug 1.
+	5. Repeat until the target quantity is found in either jug.
+	6. Print the sequence of states from the initial state to the goal state.
