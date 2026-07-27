@@ -1,0 +1,16 @@
+Alpha-Beta Pruning Algorithm	
+	1. Start from the root node of the game tree.
+	2. Initialize Alpha = -∞ and Beta = +∞.
+	3. If the current node is a terminal node, return its evaluation value.
+	4. If it is the Maximising Player's turn:
+		◦ Set the best value to -∞.
+		◦ Recursively evaluate each child node.
+		◦ Update Alpha = max(Alpha, Best Value).
+		◦ If Alpha ≥ Beta, stop exploring the remaining child nodes (prune them).
+	5. If it is the Minimising Player's turn:
+		◦ Set the best value to +∞.
+		◦ Recursively evaluate each child node.
+		◦ Update Beta = min(Beta, Best Value).
+		◦ If Beta ≤ Alpha, stop exploring the remaining child nodes (prune them).
+	6. Continue until the optimal value is found.
+	7. Display the optimal move value.
