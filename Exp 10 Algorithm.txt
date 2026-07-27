@@ -1,4 +1,4 @@
-Tower of HanoiAlgorithm
+Tower of Hanoi Algorithm
 	1. Read the number of disks n.
 	2. If n = 1, move the disk from the source rod to the destination rod.
 	3. Otherwise:
