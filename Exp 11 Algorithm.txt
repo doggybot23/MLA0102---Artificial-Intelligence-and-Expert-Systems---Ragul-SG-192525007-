@@ -1,0 +1,8 @@
+Crypt Arithmetic Algorithm
+	1. Define the words involved in the crypt arithmetic problem.
+	2. Assign a unique digit (0–9) to each letter.
+	3. Ensure no two letters have the same digit.
+	4. Ensure the leading letter of each word is not assigned 0.
+	5. Check whether the arithmetic equation is satisfied.
+	6. If satisfied, display the digit assignment; otherwise, continue searching.
+	7. Stop when a valid solution is found.
