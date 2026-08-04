@@ -1,0 +1,7 @@
+Optimal Action Plan Algorithm
+	1. Initialise the positions of the monkey, box, and banana.
+	2. Check if the monkey is at the box; if not, move the monkey to the box.
+	3. Push the box to the position below the banana.
+	4. Climb onto the box.
+	5. Pick the banana.
+	6. Display the sequence of actions.
