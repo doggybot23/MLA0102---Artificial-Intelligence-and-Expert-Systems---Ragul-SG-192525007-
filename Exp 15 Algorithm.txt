@@ -1,0 +1,10 @@
+Family Tree Problem Algorithm:
+	1. Define the gender facts for all family members.
+	2. Define the parent relationships.
+	3. Create the mother rule using the female and parent predicates.
+	4. Create the father rule using the male and parent predicates.
+	5. Create the grandfather rule by checking if a male person is the parent of another parent.
+	6. Create the grandmother rule similarly for female persons.
+	7. Create the sister rule by checking if two persons share a common parent and one is female.
+	8. Create the brother rule by checking if two persons share a common parent and one is male.
+	9. Execute queries to verify the relationships.
