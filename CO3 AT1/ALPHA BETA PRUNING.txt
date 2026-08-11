@@ -1,0 +1,21 @@
+ALGORITHM: ALPHA–BETA PRUNING
+
+	INPUT:
+		a. Game Tree
+		b. Root Node (MAX)
+		c. Alpha (α = −∞)
+		d. Beta (β = +∞)
+	OUTPUT:
+		- Optimal move with unnecessary branches pruned.
+	STEPS:
+		1. Start from the root node.
+		2. Initialize α = −∞ and β = +∞.
+		3. If the current node is a terminal node, return its utility value.
+		4. If the current node is a MAX node:
+			- Update α with the maximum value found.
+			- If α ≥ β, prune the remaining child nodes.
+		5. If the current node is a MIN node:
+			- Update β with the minimum value found.
+			- If α ≥ β, prune the remaining child nodes.
+		6. Continue until the root node is evaluated.
+		7. Return the best move for the MAX player.
