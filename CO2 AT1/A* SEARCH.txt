@@ -1,0 +1,35 @@
+ALGORITHM: A* SEARCH
+	
+	INPUT:
+		Graph - G(V, E)
+		Source node - (S)
+		Goal node - (G)
+		Heuristic function - h(n)
+
+	OUTPUT:
+		Optimal path from source to goal.
+
+	STEPS:
+		1. Start from the source node.
+		2.Create an OPEN list and insert the source node.
+		3. Create an empty CLOSED list.
+		4. Set:
+			g(S) = 0
+			h(S) = Heuristic value of the source node.
+			f(S) = g(S) + h(S)
+
+			Repeat until OPEN is empty:
+				a. Remove the node having the smallest f(n) value from OPEN.
+				b. If the node is the goal, stop and return the optimal path.
+				c. Otherwise, move the node to CLOSED.
+				d. Expand all neighboring nodes.
+				e. For each neighboring node:
+	   				i. Calculate the actual cost:
+  						- g(n) = Cost from the source node to the current node.
+ 					ii. Obtain the heuristic value:
+ 						- h(n) = Estimated cost from the current node to the goal.
+   					iii. Calculate:
+  						- f(n) = g(n) + h(n)
+  					iv. If the neighbor is not in OPEN or CLOSED, insert it into OPEN.
+ 					v. If a shorter path to the neighbor is found, update its parent, g(n), and f(n).
+		5. If OPEN becomes empty before reaching the goal, report No Path Exists.
