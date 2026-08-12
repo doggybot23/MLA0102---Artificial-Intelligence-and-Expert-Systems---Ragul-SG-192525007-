@@ -1,0 +1,7 @@
+DECISION TREE Algorithm:
+	1. Import the required libraries.
+	2. Create a dataset containing customer details and loan status.
+	3. Split the dataset into training and testing sets.
+	4. Train the Decision Tree Classifier using the training data.
+	5. Predict the loan status for the test data.
+	6. Display the predicted results and model accuracy.
