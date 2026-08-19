@@ -1,0 +1,6 @@
+Experiment 14 – Diet Recommendation Expert System Algorithm
+1. Define rules for recommending diets based on age, BMI, and health condition.
+2. Read the user's age, BMI, and health condition.
+3. Check the conditions against the predefined rules.
+4. Select the appropriate diet recommendation.
+5. Display the recommended diet.

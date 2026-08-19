@@ -1,0 +1,8 @@
+Experiment 13 – Artificial Neural Network Algorithm
+	1. Import the required machine learning libraries.
+	2. Create a dataset containing patient information and disease labels.
+	3. Split the dataset into training and testing data.
+	4. Create an Artificial Neural Network model.
+	5. Train the model using the training data.
+	6. Predict the disease for the test data.
+	7. Calculate and display the accuracy.

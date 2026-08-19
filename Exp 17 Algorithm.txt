@@ -1,0 +1,7 @@
+Experiment 17 – Medical Expert System Algorithm
+1. Define symptoms as facts.
+2. Define rules connecting symptoms to possible diseases.
+3. Take the patient's symptoms as input.
+4. Compare the symptoms with the rules.
+5. Infer the disease when the required symptoms match.
+6. Display the possible disease.
