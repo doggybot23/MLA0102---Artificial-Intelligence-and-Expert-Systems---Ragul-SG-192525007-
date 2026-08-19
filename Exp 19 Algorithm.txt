@@ -1,0 +1,7 @@
+Experiment 19 – Planet Algorithm
+	1. Define the planets as facts.
+	2. Define the distance of each planet from the Sun.
+	3. Define the type of each planet.
+	4. Create rules to find the planet based on its distance or type.
+	5. Query the required planet information.
+	6. Display the matching planet and its classification.

@@ -1,0 +1,6 @@
+Experiment 18 – Fruit Color Classification Algorithm
+	1. Define the fruits and their colors as facts.
+	2. Create production rules for each color.
+	3. Match the fruit with its color.
+	4. Apply the corresponding rule.
+	5. Display the fruit classification.
