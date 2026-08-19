@@ -1,0 +1,6 @@
+Experiment 20 – Person DOB Knowledge Base Algorithm
+1. Define person names and their dates of birth as facts.
+2. Store the date of birth for each person.
+3. Create a rule to retrieve the date of birth.
+4. Query the required person's name.
+5. Display the corresponding date of birth.

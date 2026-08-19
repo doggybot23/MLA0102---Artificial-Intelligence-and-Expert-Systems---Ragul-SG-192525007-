@@ -1,0 +1,7 @@
+Experiment 21 – Pattern Recognition Algorithm
+1. Create a set of patterns.
+2. Take a pattern as input.
+3. Compare the input with the predefined patterns.
+4. If a matching pattern is found, identify it.
+5. If no match is found, classify it as an unknown pattern.
+6. Display the recognized pattern.

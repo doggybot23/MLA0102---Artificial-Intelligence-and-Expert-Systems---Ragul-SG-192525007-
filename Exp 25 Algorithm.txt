@@ -1,0 +1,9 @@
+Experiment 25 – Best First Search in Python Algorithm
+1. Define the graph and heuristic values.
+2. Start from the source node.
+3. Add the source node to the priority queue.
+4. Select the node with the lowest heuristic value.
+5. If it is the goal, stop the search.
+6. Otherwise, add its unvisited neighboring nodes to the queue.
+7. Repeat until the goal is reached or no nodes remain.
+8. Display the path.

@@ -1,0 +1,7 @@
+Experiment 27 – Vowel Identification Using Rule-Based Logic Algorithm
+1. Define the vowels as predefined rules.
+2. Read a sentence from the user.
+3. Examine each character in the sentence.
+4. Check whether the character is a vowel.
+5. If it is a vowel, display it.
+6. Continue until all characters are checked.
