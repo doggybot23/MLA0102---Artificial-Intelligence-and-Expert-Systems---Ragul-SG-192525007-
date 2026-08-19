@@ -1,0 +1,9 @@
+Backward Chaining Algorithm: 
+	1. Define the available facts and rules.
+	2. Select a goal or conclusion to prove.
+	3. Check whether the goal is already a known fact.
+	4. If not, find a rule whose conclusion matches the goal.
+	5. Treat the rule's conditions as new sub-goals.
+	6. Recursively check whether all sub-goals can be proved.
+	7. If all conditions are satisfied, the goal is proved.
+	8. Display the final diagnosis.
